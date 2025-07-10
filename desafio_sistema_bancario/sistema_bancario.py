@@ -45,7 +45,7 @@ while True: #inicia laço após apresentação do menu
                 numero_saque += 1  
                 extrato += f"|SAÍDA| no valor de: R${saque:>11.2f}\n"  
                 saldo -= saque
-                print(f"Saque de R${saque} feito com sucesso!")                                     
+                print(f"Saque de R${saque: .2f} feito com sucesso!")                                     
             else:
                 print("...CONTA NÃO AUTORIZADA PARA SAQUE INDIVIDUAL MAIOR QUE R$ 500.00...")
                            
